@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Data Validation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h2><center>Product Information</center></h2>
+    </head>
+    <body>
+        <div>Enter your information here</div>
+        <br>
+        <form name = "validpro" action="./validation" method="post">
+            <table>
+                <tr>
+                    <th>Enter Student No: </th>
+                    <td><input type="text" name="validpro_stno" value=""></td>
+                </tr>
+                <tr>
+                    <th>Enter student name: </th>
+                    <td><input type="text" name="validpro_sname" value=""></td>
+                </tr>
+                <tr>
+                    <th>Enter Student marks: </th>
+                    <td><input type="text" name="validpro_smarks" value=""></td>
+                </tr>
+                <tr>
+                    <table>
+                        <tr>
+                            <td align="center"><input type="submit" name="validpro_insert" value="insert"></td>
+                            <td align="center"><input type="submit" name="validpro_reset" value="reset"></td>
+                        </tr>
+                    </table>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
