@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Product Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h2><center>Product Information</center></h2>
+    </head>
+    <body>
+        <div>Enter your information here</div>
+        <br>
+        <form name = "prodata" action="./getdata" method="post">
+            <table>
+                <tr>
+                    <th>Enter product id: </th>
+                    <td><input type="text" name="prodata_id" value=""></td>
+                </tr>
+                <tr>
+                    <th>Enter product name: </th>
+                    <td><input type="text" name="prodata_name" value=""></td>
+                </tr>
+                <tr>
+                    <th>Enter product price: </th>
+                    <td><input type="text" name="prodata_price" value=""></td>
+                </tr>
+                <tr>
+                    <table>
+                        <tr>
+                            <td align="center"><input type="submit" name="prod_insert" value="insert"></td>
+                            <td align="center"><input type="submit" name="prod_reset" value="reset"></td>
+                        </tr>
+                    </table>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
